@@ -22,7 +22,7 @@ sudo apt install python3-venv
 python3 -m venv venv
 source venv/bin/activate
 pip install flask waitress user_agents
-
+```
 
 ## Run the Server
 
@@ -30,15 +30,16 @@ pip install flask waitress user_agents
 
 ```bash
 python app.py
-
+```
 - Advanced options:
 
 ```bash
 python app.py \
   --platform [facebook|instagram|linkedin] \
   --redirect "https://your-redirect-url.com"
-
+```
 - Example:
 
 ```bash
 python app.py --platform instagram --redirect "https://instagram.com"
+```
