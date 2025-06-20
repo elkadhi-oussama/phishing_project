@@ -1,0 +1,28 @@
+2025-06-20 19:06:28,554 - Serving on http://0.0.0.0:5000
+2025-06-20 19:07:47,425 - Serving on http://0.0.0.0:5000
+2025-06-20 19:08:34,631 - IP: 127.0.0.1 | Device: Chrome 137.0.0 on Windows | Email: oussamaelkadhi1@gmail.com | Password: 123456
+2025-06-20 19:33:16,849 - Serving on http://0.0.0.0:5000
+2025-06-20 19:42:07,001 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.166:5000
+2025-06-20 19:42:07,002 - [33mPress CTRL+C to quit[0m
+2025-06-20 19:42:07,008 -  * Restarting with stat
+2025-06-20 19:42:07,405 -  * Debugger is active!
+2025-06-20 19:42:07,413 -  * Debugger PIN: 128-256-659
+2025-06-20 19:42:39,431 - 192.168.1.166 - - [20/Jun/2025 19:42:39] "GET / HTTP/1.1" 200 -
+2025-06-20 19:42:39,596 - 192.168.1.166 - - [20/Jun/2025 19:42:39] "[36mGET /static/instagram.css HTTP/1.1[0m" 304 -
+2025-06-20 19:42:50,618 - Platform: instagram | IP: 192.168.1.166 | Device: Chrome 137.0.0 on Windows | Email: 123 | Password: 123
+2025-06-20 19:42:50,618 - 192.168.1.166 - - [20/Jun/2025 19:42:50] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-06-20 19:45:49,951 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.166:5000
+2025-06-20 19:45:49,952 - [33mPress CTRL+C to quit[0m
+2025-06-20 19:45:49,953 -  * Restarting with stat
+2025-06-20 19:45:50,322 -  * Debugger is active!
+2025-06-20 19:45:50,326 -  * Debugger PIN: 128-256-659
+2025-06-20 19:45:59,639 - 192.168.1.166 - - [20/Jun/2025 19:45:59] "GET / HTTP/1.1" 200 -
+2025-06-20 19:45:59,807 - 192.168.1.166 - - [20/Jun/2025 19:45:59] "[36mGET /static/instagram.css HTTP/1.1[0m" 304 -
+2025-06-20 19:46:06,599 - Platform: instagram | IP: 192.168.1.166 | Device: Chrome 137.0.0 on Windows | Email: test | Password: 1234
+2025-06-20 19:46:06,601 - 192.168.1.166 - - [20/Jun/2025 19:46:06] "[32mPOST / HTTP/1.1[0m" 302 -

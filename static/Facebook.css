@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.left-panel {
+    flex: 1 1 300px;
+    max-width: 500px;
+    margin-right: 50px;
+}
+
+.left-panel h1 {
+    color: #1877f2;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.left-panel p {
+    font-size: 1.25rem;
+    color: #1c1e21;
+}
+
+.login-box {
+    flex: 1 1 300px;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box input {
+    padding: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.login-box button {
+    padding: 14px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-box button[type="submit"] {
+    background-color: #1877f2;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.login-box .create-account {
+    background-color: #42b72a;
+    color: white;
+    margin-top: 10px;
+}
+
+.forgot {
+    text-align: center;
+    display: block;
+    color: #1877f2;
+    font-size: 0.95rem;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #65676b;
+    padding: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #65676b;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-panel {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
